@@ -77,4 +77,3 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
-$("footer").css("color","green");

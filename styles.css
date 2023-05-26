@@ -1,7 +1,6 @@
 body {
   text-align: center;
   background-color: #011F3F;
-  height: 100vh;
 }
 
 #level-title {
@@ -12,7 +11,7 @@ body {
 }
 
 .container {
-  display: inline;
+  display: block;
   width: 50%;
   margin: auto;
 
@@ -21,10 +20,10 @@ body {
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 600px;
-  width: 400px;
-  border: 1px solid black;
-  border-radius: 10%;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
 }
 
 .game-over {
@@ -51,10 +50,4 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
-}
-footer{
-  font-family: 'Press Start 2P', cursive;
-  font-size: 2rem;
-  margin:  5%;
-  margin-top: 20%;
 }
